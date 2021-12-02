@@ -1170,26 +1170,199 @@ Cumplir con una ley, estándar, conjunto de directrices, normas o requerimientos
 
 ## Acuerdos de nivel de servicio y ciclo de vida
 
+**Acuerdo de nivel de servicio**
 
+Contrato formal entre empresa de servicios y cliente.
+Define estándares de rendimiento que Microsoft se compromete a brindar.
+
+**¿Qué incluyen?**
+
+- Introducción.
+- Términos generales.
+- Detalles del SLA (Service Level Agreement).
+
+**Importancia**
+**Entender:**
+
+- Garantías de servicio.
+- Hacerlas efectivas.
+- Disponibilidades.
+
+**Elementos para aumentar SLA**
+
+- Tipo de discos.
+- Niveles superiores de servicio.
+- Redundancia en regiones.
+- Redundancia en zonas de disponibilidad.
+
+**Ciclo de vida**
+Forma en que cada servicio está disponible.
+
+**Fases:**
+
+- Desarrollo
+- Preliminar
+- Disponibilidad general (GA)
+- Desaconsejado
+
+- SLA, Acuerdo de nivel de servicio entre Microsoft y los clientes.
+- Si un servicio es <95% hay un crédito del 100%. <99% un crédito del 25%, 99.99% es del 10%.
+- Ciclo de vida de un servicio: Desarrollo, Preliminar, Disponibilidad general, depreciado.
+
+### ¿Por qué son importantes los acuerdos de nivel de servicio?
+
+La comprensión del acuerdo de nivel de servicio de los servicios de Azure que use le ayudará a conocer las garantías que puede esperar.
+
+La disponibilidad de los servicios que usa afecta al tiempo de actividad y en el rendimiento de las aplicaciones que se compilan en Azure.
+
+### ¿Cómo puedo solicitar un crédito de servicio a Microsoft?
+
+Normalmente, deberá presentar una reclamación a Microsoft para recibir un crédito de servicio. Si adquiere los servicios de Azure de un partner proveedor de soluciones en la nube (CSP), este suele encargarse de administrar el proceso de reclamación.
+
+Cada acuerdo de nivel de servicio especifica el plazo en el que se debe enviar la reclamación y el plazo para que Microsoft la procese. En muchos servicios, la reclamación debe enviarse antes de que finalice el mes natural siguiente al mes en el que se produjo el incidente.
+
+[![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/media/favicons/platzi_favicon.png)Elección de los servicios de Azure adecuados según los Acuerdos de Nivel de Servicio y el ciclo de vida del servicio (AZ-900) - Learn | Microsoft Docs](https://docs.microsoft.com/es-es/learn/modules/choose-azure-services-sla-lifecycle/)
+
+[![img](https://www.google.com/s2/favicons?domain=//azurecomcdn.azureedge.net/cvt-233147754f3cbba3c733e98527f90b7173b78e5c437a095e31cb4f5ec7d35283/images/icon/favicon.ico)Contratos de nivel de servicio - Página principal | Microsoft Azure](https://azure.microsoft.com/es-mx/support/legal/sla/)
 
 # 6. Bonus: Laboratorios para aprender más de Azure
 
+## Conociendo los servicios básicos de Azure
+
+## **Crea una cuenta en Microsoft Learn y regístrate a los laboratorios.**
+
+Para ello solo tienes que seguir estos pasos:
+
+1. Ingresa a la [página de Microsoft Learn](https://docs.microsoft.com/es-es/learn/).
+
+![https://i.imgur.com/i3zJvyM.png](https://i.imgur.com/i3zJvyM.png)
+
+En parte superior derecha encontrarás un botón para iniciar sesión.
+
+1. Inicia sesión en el portal. Lo podrás hacer con cualquier cuenta de Microsoft existente que tengas. En caso de que no tengas una da clic en el enlace para crear una.
+
+![https://i.imgur.com/OoxdXtx.png](https://i.imgur.com/OoxdXtx.png)
+
+1. Una vez inicies sesión, te pedirá llenar unos datos extra para completar tu perfil dentro de la plataforma.
+
+![https://i.imgur.com/KsCvh6p.png](https://i.imgur.com/KsCvh6p.png)
+
+1. Por último, regístrate al [desafío de la Escuela de Cloud Computing con Azure.](https://docs.microsoft.com/es-mx/learn/challenges?id=2cceec57-42f9-4350-8b82-1fc4fe0034fa)
+
+![https://i.imgur.com/Aigzdiq.png](https://i.imgur.com/Aigzdiq.png)
+
+1. ¡Listo! Ya tienes tu cuenta en Microsoft Learn vinculada a la Escuela de Azure de Platzi y puedes comenzar a realizar los laboratorios de práctica asociados a este curso.
 
 ## Conociendo los servicios básicos de Azure
 
+La nube de Azure cuenta con un sin fin de servicios: desde bases de datos hasta almacenamiento. En este módulo de Microsoft Learn podrás conocer e identificar los servicios básicos que ofrece Azure.
+
+En este módulo aprenderás sobre:
+
+- Los servicios de Azure Compute
+- Los servicios de red de Azure
+- Los servicios de Azure Storage
+- Los servicios de análisis y bases de datos de Azure
+
+Si deseas acceder a este módulo puedes [ir al siguiente enlace.](https://docs.microsoft.com/es-es/learn/paths/az-900-describe-core-azure-services/?ns-enrollment-type=Collection&ns-enrollment-id=xgg5bxjg1owzm7)
 
 ## Conoce los servicios especializados de Azure
 
+Aunque ya conoces los servicios que Azure ofrece para soluciones generales como almacenamiento, red o computo existen todavía una amplia gama de problemas que necesitan soluciones mucho más especializadas.
+
+Para ello te recomendamos que tomes el siguiente módulo en Microsoft Learn donde aprenderás:
+
+- Elegir el mejor servicio de Azure IoT para tu aplicación
+- Elegir el mejor servicio de IA para tus necesidades
+- Elegir la mejor tecnología *serverless* de Azure para un escenario empresarial
+- Elegir las mejores herramientas para ayudar a que las organizaciones creen mejores soluciones
+- Elegir las mejores herramientas para administrar y configurar un entorno de Azure
+- Elegir el mejor servicio de supervisión para visibilidad, información y mitigación de interrupciones
+
+Si deseas desarrollar este módulo lo puedes encontrar en el [siguiente enlace.](https://docs.microsoft.com/es-es/learn/paths/az-900-describe-core-solutions-management-tools-azure/?ns-enrollment-type=Collection&ns-enrollment-id=xgg5bxjg1owzm7)
 
 ## Introducción a SQL Server en Linux
 
+Una de las bases de datos más importantes en el sistema corporativo es SQL Server de Microsoft. Como profesional de la nube de Azure es bueno que conozcas este gestor de bases de datos relacionales y sepas cómo implementarlo en tus soluciones:
+
+Para ello te recomiendo que tomes el siguiente módulo en la plataforma de Microsoft Learn en el cual aprenderás a:
+
+- Describir las ventajas principales de ejecutar SQL Server en Linux
+- Describir las herramientas de Windows y multiplataforma que se pueden usar para administrar SQL Server en Linux.
+- Describir las ventajas de ejecutar SQL Server en máquinas virtuales Linux.
+- Describir las ventajas de ejecutar SQL Server en entornos de ejecución de contenedor, como Docker.
+
+Si deseas realizar este módulo puedes iniciar en el [siguiente enlace.](https://docs.microsoft.com/es-es/learn/modules/introduction-sql-server-linux/?ns-enrollment-type=Collection&ns-enrollment-id=xgg5bxjg1owzm7)
 
 ## Hospedaje de una aplicación web
 
+Azure App Service te permite crear y hospedar aplicaciones web en el lenguaje de programación que prefiera sin tener que administrar la infraestructura. Aprende a crear un sitio web mediante la plataforma de aplicaciones web hospedada en Azure App Service.
+
+En este módulo de Microsoft Learn aprenderás a:
+
+- Usar Azure Portal para crear una aplicación web de Azure App Service.
+- Usar herramientas de desarrollo para crear el código para una aplicación web de inicio.
+- Implementar el código en Azure App Service.
+
+Para iniciar con este módulo puedes iniciar en el [siguiente enlace](https://docs.microsoft.com/es-es/learn/modules/host-a-web-app-with-azure-app-service/?ns-enrollment-type=Collection&ns-enrollment-id=xgg5bxjg1owzm7).
 
 ## Creación de lógica serverless con Azure Functions
 
+Azure Functions permite a los desarrolladores hospedar lógica de negocio que se puede ejecutar sin administrar ni aprovisionar infraestructura. Podemos verlo como un pequeño pedazo de código que podemos ejecutar en cualquier momento de manera remota.
+
+Si quieres aprender más sobre cómo crear e implementar este tipo de funciones te recomiendo tomar el siguiente módulo de Microsoft Learn en el cual aprenderás a:
+
+- Decidir si la informática sin servidor es adecuada para las necesidades empresariales
+- Crear una aplicación de función de Azure en Azure Portal
+- Ejecutar una función mediante desencadenadores
+- Supervisar y probar la función de Azure desde Azure Portal
+
+Si quieres desarrollar este módulo puedes encontrarlo en el [siguiente enlace.](https://docs.microsoft.com/es-es/learn/modules/create-serverless-logic-with-azure-functions/?ns-enrollment-type=Collection&ns-enrollment-id=xgg5bxjg1owzm7)
+
+Los dos métodos más comunes son Azure Logic Apps y Azure Functions
+
+- **Azure Functions**
+  Permite hospedar la lógica de negocios que se puede ejecutar sin aprovisionar infraestructura. Proporciona escalabilidad intrínseca y solo se cobra por los recursos usados. Se admiten los administradores de paquetes como NuGet y NPM.
+
+### Ventajas
+
+- Lógica sin estado
+- Controladas por eventos
+- Utilizarse en entornos de proceso tradicionales
+
+### Desventajas
+
+- Tiempo de ejecución
+- Frecuencia de ejecución
+
+![Preview](https://static.platzi.com/media/user_upload/azure-900-cloudfundamentals-1-cloud-computing-18c775db-ff4e-4395-851f-85af55b58ad2.jpg)
+
 # 7. Seguir aprendiendo sobre la nube
 
-
 ## Certifícate en Azure
+
+[![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/media/favicons/platzi_favicon.png)Microsoft Certifications | Microsoft Docs](https://docs.microsoft.com/es-mx/learn/certifications/)
+
+### Domina la nube
+
+La verdadera nube
+¡Lo que aprendiste!
+
+- Qué es la nube
+- Sus tipos y formas
+- Qué es Azure y sus características
+- Servicios de Azure
+- Diseñar una arquitectura de servicios
+- SLA
+- Administración de costos
+
+¡Lo que puedes lograr!
+
+- Certificarte
+- Seguir algún rol de la nube
+- Analizar el desarrollo de un sistema en la nube
+- Tomar decisiones de negocio
+
+## Contenido de apoyo: Sesiones en vivo Azure
+
+### Certifícate en Microsoft Azure, últimos consejos
